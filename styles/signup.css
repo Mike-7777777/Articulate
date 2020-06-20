@@ -1,0 +1,168 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header, main {
+    width: 1700px;
+    min-width: 500px;
+    margin: 0 auto;
+}
+
+#loading
+{
+        width:100%;
+        height:100%;
+        position:fixed;
+
+        z-index:999;
+        background-color:white;
+}
+
+.scoll_dis
+{
+	overflow:scroll;
+	overflow-y:hidden;
+}
+
+h1 {
+font-size: 33px;
+font-family: 'Ruda', sans-serif;
+text-align: center;
+}
+
+#register {
+    font-size: 25px;
+    font-family: 'Ruda', sans-serif;
+    text-align: center;
+    }
+
+p {
+font-size: 16px;
+font-family: 'Roboto Slab', serif;
+line-height: 2;
+}
+
+/* || header layout */
+
+header {
+    flex-flow: row wrap;
+  }
+.header{
+  width:100%;
+  padding-top: 100px;
+}
+.welcome{
+  margin:0 auto;
+  display: inline-flex;
+  width:50%;
+}
+h1 {
+  flex: 5;
+  }
+.textwelcome{
+  margin-top: 20px!important;
+}
+#flower1 {
+    margin-left:auto;
+}
+
+#flower2 {
+    margin-right:auto;
+}
+
+/* || main layout */
+
+.information {
+    display: flex;
+    width: 50%;
+    min-width: 500px;
+    margin: 0 auto;
+  }
+
+  .information2 {
+      display: block;
+      width: 50%;
+      min-width: 500px;
+      margin: 0 auto;
+    }
+
+  article {
+    flex: 2.5;
+  }
+
+  aside {
+    flex: 5;
+    margin-left: 0;
+  }
+
+  aside input {
+    display: block;
+    float: left;
+    width: 100%;
+    height: 26px;
+    margin-top:19.6px;
+
+  }
+.register{
+  display:block;
+  width: 50%;
+  min-width: 500px;
+  margin: 0 auto;
+}
+  #register {
+    display: block;
+    width:200px;
+    margin:60px auto;
+    background-color:#ebd7df;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+  }
+
+  #register:hover {
+    background-color: #e3c6d1;
+  }
+
+  #register:active {
+  background-color: #e3c6d1;
+  transform: translateY(3px);
+  }
+.flower{
+
+}
+.margin{
+  margin-top: 30px;
+}
+.left{
+  float: left;
+  width:500px;
+}
+.right{
+  float: right;
+  width: 1000px;
+}
+.firstinput{
+  margin-top: 3px!important;
+}
+.input-block{
+    margin-top: 0;
+    margin-bottom: .9rem;
+    display: block;
+    width: 100%;
+    min-height: 34px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #24292e;
+    vertical-align: middle;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    border: 1px solid #d1d5da;
+    border-radius: 3px;
+    outline: none;
+}
+footer{
+  float:right;
+}

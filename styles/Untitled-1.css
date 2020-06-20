@@ -1,0 +1,431 @@
+            <style data-vue-ssr-id="e57ec592:0 120b20f6:0 4743c416:0 580f2dd4:0 ae617d54:0 422f1fb8:0 669d3c9a:0 706acfdc:0 52644816:0 4448efac:0 4e3a40ac:0 1c3f44ee:0 14e53ada:0 9d46823a:0 7e82cdd0:0 7432b31c:0 43c351fa:0 b2e070a4:0 b106e13a:0 1fd5893e:0 74503b64:0 23e9d014:0 90a8493c:0">.App-app-1pE * {
+        box-sizing: border-box;
+    }
+    
+    .Galleries-curated-galleries__header-strip-ajd {
+        -webkit-box-align: center;
+        align-items: center;
+        background-color: #fff;
+        box-shadow: 0 0 4px rgba(25, 25, 25, 0.1);
+        box-sizing: border-box;
+        display: -webkit-box;
+        display: flex;
+        height: 59px;
+        position: fixed;
+        width: 100%;
+        z-index: 3;
+    }
+    
+    @media (max-width: 1024px) {
+        .Galleries-curated-galleries__header-strip-ajd {
+            padding-left: 15px;
+            padding-right: 15px;
+            position: relative;
+        }
+    }
+    
+    @media (max-width: 499px) {
+        .Galleries-curated-galleries__header-strip-ajd {
+            width: auto;
+        }
+    }
+    
+    .Galleries-curated-galleries__btn-Bji {
+        margin-right: 10px;
+    }
+    
+    .Galleries-curated-galleries__btn-Bji:last-child {
+        margin-right: 0;
+    }
+    
+    .Galleries-curated-galleries__header-strip-wrap-3HR {
+        -webkit-box-align: center;
+        align-items: center;
+        display: -webkit-box;
+        display: flex;
+        flex-wrap: wrap;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    .Galleries-curated-galleries__back-link-36p {
+        font-size: 15px;
+        font-weight: bold;
+        line-height: 20px;
+    }
+    
+    .Galleries-curated-galleries__back-link-36p:hover {
+        text-decoration: none;
+    }
+    
+    .Galleries-curated-galleries__back-link-36p:hover .Galleries-curated-galleries__back-link-text-5xm {
+        text-decoration: underline;
+    }
+    
+    .Galleries-curated-galleries__back-link-36p svg {
+        fill: #0057ff;
+        height: 10px;
+        margin-right: 4px;
+        width: 10px;
+    }
+    
+    .Galleries-curated-galleries__btn-container-3Oj {
+        display: inline-block;
+        margin: 0;
+    }
+    
+    .Galleries-curated-galleries__tool-download-btn-150 {
+        vertical-align: middle;
+    }
+    
+    .Galleries-curated-galleries__tool-download-btn-150 .Galleries-curated-galleries__tool-download-btn--logo-after-effects-2A2 {
+        background-image: url("https://a5.behance.net/afdbc184ead090f70e060eaa1739c7746cac0409/img/galleries/icons/adobe/download/1x/after-effects.png");
+    }
+    
+    @media only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 192dpi),
+    only screen and (min-resolution: 2dppx) {
+        .Galleries-curated-galleries__tool-download-btn-150 .Galleries-curated-galleries__tool-download-btn--logo-after-effects-2A2 {
+            background-image: url("https://a5.behance.net/afdbc184ead090f70e060eaa1739c7746cac0409/img/galleries/icons/adobe/download/2x/after-effects@2x.png");
+        }
+    }
+    
+    .Galleries-curated-galleries__tool-download-btn-150 .Galleries-curated-galleries__tool-download-btn--logo-comp-cc-2ze {
+        background-image: url("https://a5.behance.net/afdbc184ead090f70e060eaa1739c7746cac0409/img/galleries/icons/adobe/download/1x/comp-cc.png");
+    }
+    
+    @media only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 192dpi),
+    only screen and (min-resolution: 2dppx) {
+        .Galleries-curated-galleries__tool-download-btn-150 .Galleries-curated-galleries__tool-download-btn--logo-comp-cc-2ze {
+            background-image: url("https://a5.behance.net/afdbc184ead090f70e060eaa1739c7746cac0409/img/galleries/icons/adobe/download/2x/comp-cc@2x.png");
+        }
+    }
+    
+    .Galleries-curated-galleries__tool-download-btn-150 .Galleries-curated-galleries__tool-download-btn--logo-draw-3X6 {
+        background-image: url("https://a5.behance.net/afdbc184ead090f70e060eaa1739c7746cac0409/img/galleries/icons/adobe/download/1x/draw.png");
+    }
+    
+    @media only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 192dpi),
+    only screen and (min-resolution: 2dppx) {
+        .Galleries-curated-galleries__tool-download-btn-150 .Galleries-curated-galleries__tool-download-btn--logo-draw-3X6 {
+            background-image: url("https://a5.behance.net/afdbc184ead090f70e060eaa1739c7746cac0409/img/galleries/icons/adobe/download/2x/draw@2x.png");
+        }
+    }
+    
+    .Galleries-curated-galleries__tool-download-btn-150 .Galleries-curated-galleries__tool-download-btn--logo-experience-design-2jj {
+        background-image: url("https://a5.behance.net/afdbc184ead090f70e060eaa1739c7746cac0409/img/galleries/icons/adobe/download/1x/experience-design.png");
+    }
+    
+    @media only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 192dpi),
+    only screen and (min-resolution: 2dppx) {
+        .Galleries-curated-galleries__tool-download-btn-150 .Galleries-curated-galleries__tool-download-btn--logo-experience-design-2jj {
+            background-image: url("https://a5.behance.net/afdbc184ead090f70e060eaa1739c7746cac0409/img/galleries/icons/adobe/download/2x/experience-design@2x.png");
+        }
+    }
+    
+    .Galleries-curated-galleries__tool-download-btn-150 .Galleries-curated-galleries__tool-download-btn--logo-illustrator-3wt {
+        background-image: url("https://a5.behance.net/afdbc184ead090f70e060eaa1739c7746cac0409/img/galleries/icons/adobe/download/1x/illustrator.png");
+    }
+    
+    @media only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 192dpi),
+    only screen and (min-resolution: 2dppx) {
+        .Galleries-curated-galleries__tool-download-btn-150 .Galleries-curated-galleries__tool-download-btn--logo-illustrator-3wt {
+            background-image: url("https://a5.behance.net/afdbc184ead090f70e060eaa1739c7746cac0409/img/galleries/icons/adobe/download/2x/illustrator@2x.png");
+        }
+    }
+    
+    .Galleries-curated-galleries__tool-download-btn-150 .Galleries-curated-galleries__tool-download-btn--logo-indesign-L0Q {
+        background-image: url("https://a5.behance.net/afdbc184ead090f70e060eaa1739c7746cac0409/img/galleries/icons/adobe/download/1x/indesign.png");
+    }
+    
+    @media only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 192dpi),
+    only screen and (min-resolution: 2dppx) {
+        .Galleries-curated-galleries__tool-download-btn-150 .Galleries-curated-galleries__tool-download-btn--logo-indesign-L0Q {
+            background-image: url("https://a5.behance.net/afdbc184ead090f70e060eaa1739c7746cac0409/img/galleries/icons/adobe/download/2x/indesign@2x.png");
+        }
+    }
+    
+    .Galleries-curated-galleries__tool-download-btn-150 .Galleries-curated-galleries__tool-download-btn--logo-lightroom-3gu {
+        background-image: url("https://a5.behance.net/afdbc184ead090f70e060eaa1739c7746cac0409/img/galleries/icons/adobe/download/1x/lightroom.png");
+    }
+    
+    @media only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 192dpi),
+    only screen and (min-resolution: 2dppx) {
+        .Galleries-curated-galleries__tool-download-btn-150 .Galleries-curated-galleries__tool-download-btn--logo-lightroom-3gu {
+            background-image: url("https://a5.behance.net/afdbc184ead090f70e060eaa1739c7746cac0409/img/galleries/icons/adobe/download/2x/lightroom@2x.png");
+        }
+    }
+    
+    .Galleries-curated-galleries__tool-download-btn-150 .Galleries-curated-galleries__tool-download-btn--logo-photoshop-14E {
+        background-image: url("https://a5.behance.net/afdbc184ead090f70e060eaa1739c7746cac0409/img/galleries/icons/adobe/download/1x/photoshop.png");
+    }
+    
+    @media only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 192dpi),
+    only screen and (min-resolution: 2dppx) {
+        .Galleries-curated-galleries__tool-download-btn-150 .Galleries-curated-galleries__tool-download-btn--logo-photoshop-14E {
+            background-image: url("https://a5.behance.net/afdbc184ead090f70e060eaa1739c7746cac0409/img/galleries/icons/adobe/download/2x/photoshop@2x.png");
+        }
+    }
+    
+    .Galleries-curated-galleries__tool-download-btn-150 .Galleries-curated-galleries__tool-download-btn--logo-premiere-1h4 {
+        background-image: url("https://a5.behance.net/afdbc184ead090f70e060eaa1739c7746cac0409/img/galleries/icons/adobe/download/1x/premiere.png");
+    }
+    
+    @media only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 192dpi),
+    only screen and (min-resolution: 2dppx) {
+        .Galleries-curated-galleries__tool-download-btn-150 .Galleries-curated-galleries__tool-download-btn--logo-premiere-1h4 {
+            background-image: url("https://a5.behance.net/afdbc184ead090f70e060eaa1739c7746cac0409/img/galleries/icons/adobe/download/2x/premiere@2x.png");
+        }
+    }
+    
+    .Galleries-curated-galleries__tool-download-btn-150 .Galleries-curated-galleries__tool-download-btn--logo-ps-mix-3hh {
+        background-image: url("https://a5.behance.net/afdbc184ead090f70e060eaa1739c7746cac0409/img/galleries/icons/adobe/download/1x/ps-mix.png");
+    }
+    
+    @media only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 192dpi),
+    only screen and (min-resolution: 2dppx) {
+        .Galleries-curated-galleries__tool-download-btn-150 .Galleries-curated-galleries__tool-download-btn--logo-ps-mix-3hh {
+            background-image: url("https://a5.behance.net/afdbc184ead090f70e060eaa1739c7746cac0409/img/galleries/icons/adobe/download/2x/ps-mix@2x.png");
+        }
+    }
+    
+    .Galleries-curated-galleries__tool-download-btn-150 .Galleries-curated-galleries__tool-download-btn--logo-ps-sketch-mi6 {
+        background-image: url("https://a5.behance.net/afdbc184ead090f70e060eaa1739c7746cac0409/img/galleries/icons/adobe/download/1x/ps-sketch.png");
+    }
+    
+    @media only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 192dpi),
+    only screen and (min-resolution: 2dppx) {
+        .Galleries-curated-galleries__tool-download-btn-150 .Galleries-curated-galleries__tool-download-btn--logo-ps-sketch-mi6 {
+            background-image: url("https://a5.behance.net/afdbc184ead090f70e060eaa1739c7746cac0409/img/galleries/icons/adobe/download/2x/ps-sketch@2x.png");
+        }
+    }
+    
+    .Galleries-curated-galleries__tool-download-btn-150 .Galleries-curated-galleries__tool-download-btn--logo-23V {
+        background-position: center center;
+        background-repeat: none;
+        background-size: 100%;
+        display: inline-block;
+        position: relative;
+        vertical-align: middle;
+    }
+    
+    .Galleries-tag-selection-2Xp,
+    .Galleries-ui-textboxlist-2OL .Galleries-ui-textboxlist-bit-3dC.Galleries-ui-textboxlist-bit-done-1rz,
+    .Galleries-listselector_selections-2DU .Galleries-listselector-selection-2eW,
+    .Galleries-listselector_selections-2DU .Galleries-listselector-selection-bubble-2Ew {
+        background: #191919;
+        border-radius: 4px;
+        clear: both;
+        color: #fff;
+        display: inline-block;
+        float: left;
+        …</style>.App-app-1pE * {
+            box-sizing: border-box;
+        }
+        .Galleries-curated-galleries__header-strip-ajd {
+            -webkit-box-align: center;
+            align-items: center;
+            background-color: #fff;
+            box-shadow: 0 0 4px rgba(25, 25, 25, 0.1);
+            box-sizing: border-box;
+            display: -webkit-box;
+            display: flex;
+            height: 59px;
+            position: fixed;
+            width: 100%;
+            z-index: 3;
+        }
+        @media (max-width: 1024px) {
+            .Galleries-curated-galleries__header-strip-ajd {
+                padding-left: 15px;
+                padding-right: 15px;
+                position: relative;
+            }
+        }
+        @media (max-width: 499px) {
+            .Galleries-curated-galleries__header-strip-ajd {
+                width: auto;
+            }
+        }
+        .Galleries-curated-galleries__btn-Bji {
+            margin-right: 10px;
+        }
+        .Galleries-curated-galleries__btn-Bji:last-child {
+            margin-right: 0;
+        }
+        .Galleries-curated-galleries__header-strip-wrap-3HR {
+            -webkit-box-align: center;
+            align-items: center;
+            display: -webkit-box;
+            display: flex;
+            flex-wrap: wrap;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+            margin: 0 auto;
+            width: 100%;
+        }
+        .Galleries-curated-galleries__back-link-36p {
+            font-size: 15px;
+            font-weight: bold;
+            line-height: 20px;
+        }
+        .Galleries-curated-galleries__back-link-36p:hover {
+            text-decoration: none;
+        }
+        .Galleries-curated-galleries__back-link-36p:hover .Galleries-curated-galleries__back-link-text-5xm {
+            text-decoration: underline;
+        }
+        .Galleries-curated-galleries__back-link-36p svg {
+            fill: #0057ff;
+            height: 10px;
+            margin-right: 4px;
+            width: 10px;
+        }
+        .Galleries-curated-galleries__btn-container-3Oj {
+            display: inline-block;
+            margin: 0;
+        }
+        .Galleries-curated-galleries__tool-download-btn-150 {
+            vertical-align: middle;
+        }
+        .Galleries-curated-galleries__tool-download-btn-150 .Galleries-curated-galleries__tool-download-btn--logo-after-effects-2A2 {
+            background-image: url("https://a5.behance.net/afdbc184ead090f70e060eaa1739c7746cac0409/img/galleries/icons/adobe/download/1x/after-effects.png");
+        }
+        @media only screen and (-webkit-min-device-pixel-ratio: 2),
+        only screen and (min-resolution: 192dpi),
+        only screen and (min-resolution: 2dppx) {
+            .Galleries-curated-galleries__tool-download-btn-150 .Galleries-curated-galleries__tool-download-btn--logo-after-effects-2A2 {
+                background-image: url("https://a5.behance.net/afdbc184ead090f70e060eaa1739c7746cac0409/img/galleries/icons/adobe/download/2x/after-effects@2x.png");
+            }
+        }
+        .Galleries-curated-galleries__tool-download-btn-150 .Galleries-curated-galleries__tool-download-btn--logo-comp-cc-2ze {
+            background-image: url("https://a5.behance.net/afdbc184ead090f70e060eaa1739c7746cac0409/img/galleries/icons/adobe/download/1x/comp-cc.png");
+        }
+        @media only screen and (-webkit-min-device-pixel-ratio: 2),
+        only screen and (min-resolution: 192dpi),
+        only screen and (min-resolution: 2dppx) {
+            .Galleries-curated-galleries__tool-download-btn-150 .Galleries-curated-galleries__tool-download-btn--logo-comp-cc-2ze {
+                background-image: url("https://a5.behance.net/afdbc184ead090f70e060eaa1739c7746cac0409/img/galleries/icons/adobe/download/2x/comp-cc@2x.png");
+            }
+        }
+        .Galleries-curated-galleries__tool-download-btn-150 .Galleries-curated-galleries__tool-download-btn--logo-draw-3X6 {
+            background-image: url("https://a5.behance.net/afdbc184ead090f70e060eaa1739c7746cac0409/img/galleries/icons/adobe/download/1x/draw.png");
+        }
+        @media only screen and (-webkit-min-device-pixel-ratio: 2),
+        only screen and (min-resolution: 192dpi),
+        only screen and (min-resolution: 2dppx) {
+            .Galleries-curated-galleries__tool-download-btn-150 .Galleries-curated-galleries__tool-download-btn--logo-draw-3X6 {
+                background-image: url("https://a5.behance.net/afdbc184ead090f70e060eaa1739c7746cac0409/img/galleries/icons/adobe/download/2x/draw@2x.png");
+            }
+        }
+        .Galleries-curated-galleries__tool-download-btn-150 .Galleries-curated-galleries__tool-download-btn--logo-experience-design-2jj {
+            background-image: url("https://a5.behance.net/afdbc184ead090f70e060eaa1739c7746cac0409/img/galleries/icons/adobe/download/1x/experience-design.png");
+        }
+        @media only screen and (-webkit-min-device-pixel-ratio: 2),
+        only screen and (min-resolution: 192dpi),
+        only screen and (min-resolution: 2dppx) {
+            .Galleries-curated-galleries__tool-download-btn-150 .Galleries-curated-galleries__tool-download-btn--logo-experience-design-2jj {
+                background-image: url("https://a5.behance.net/afdbc184ead090f70e060eaa1739c7746cac0409/img/galleries/icons/adobe/download/2x/experience-design@2x.png");
+            }
+        }
+        .Galleries-curated-galleries__tool-download-btn-150 .Galleries-curated-galleries__tool-download-btn--logo-illustrator-3wt {
+            background-image: url("https://a5.behance.net/afdbc184ead090f70e060eaa1739c7746cac0409/img/galleries/icons/adobe/download/1x/illustrator.png");
+        }
+        @media only screen and (-webkit-min-device-pixel-ratio: 2),
+        only screen and (min-resolution: 192dpi),
+        only screen and (min-resolution: 2dppx) {
+            .Galleries-curated-galleries__tool-download-btn-150 .Galleries-curated-galleries__tool-download-btn--logo-illustrator-3wt {
+                background-image: url("https://a5.behance.net/afdbc184ead090f70e060eaa1739c7746cac0409/img/galleries/icons/adobe/download/2x/illustrator@2x.png");
+            }
+        }
+        .Galleries-curated-galleries__tool-download-btn-150 .Galleries-curated-galleries__tool-download-btn--logo-indesign-L0Q {
+            background-image: url("https://a5.behance.net/afdbc184ead090f70e060eaa1739c7746cac0409/img/galleries/icons/adobe/download/1x/indesign.png");
+        }
+        @media only screen and (-webkit-min-device-pixel-ratio: 2),
+        only screen and (min-resolution: 192dpi),
+        only screen and (min-resolution: 2dppx) {
+            .Galleries-curated-galleries__tool-download-btn-150 .Galleries-curated-galleries__tool-download-btn--logo-indesign-L0Q {
+                background-image: url("https://a5.behance.net/afdbc184ead090f70e060eaa1739c7746cac0409/img/galleries/icons/adobe/download/2x/indesign@2x.png");
+            }
+        }
+        .Galleries-curated-galleries__tool-download-btn-150 .Galleries-curated-galleries__tool-download-btn--logo-lightroom-3gu {
+            background-image: url("https://a5.behance.net/afdbc184ead090f70e060eaa1739c7746cac0409/img/galleries/icons/adobe/download/1x/lightroom.png");
+        }
+        @media only screen and (-webkit-min-device-pixel-ratio: 2),
+        only screen and (min-resolution: 192dpi),
+        only screen and (min-resolution: 2dppx) {
+            .Galleries-curated-galleries__tool-download-btn-150 .Galleries-curated-galleries__tool-download-btn--logo-lightroom-3gu {
+                background-image: url("https://a5.behance.net/afdbc184ead090f70e060eaa1739c7746cac0409/img/galleries/icons/adobe/download/2x/lightroom@2x.png");
+            }
+        }
+        .Galleries-curated-galleries__tool-download-btn-150 .Galleries-curated-galleries__tool-download-btn--logo-photoshop-14E {
+            background-image: url("https://a5.behance.net/afdbc184ead090f70e060eaa1739c7746cac0409/img/galleries/icons/adobe/download/1x/photoshop.png");
+        }
+        @media only screen and (-webkit-min-device-pixel-ratio: 2),
+        only screen and (min-resolution: 192dpi),
+        only screen and (min-resolution: 2dppx) {
+            .Galleries-curated-galleries__tool-download-btn-150 .Galleries-curated-galleries__tool-download-btn--logo-photoshop-14E {
+                background-image: url("https://a5.behance.net/afdbc184ead090f70e060eaa1739c7746cac0409/img/galleries/icons/adobe/download/2x/photoshop@2x.png");
+            }
+        }
+        .Galleries-curated-galleries__tool-download-btn-150 .Galleries-curated-galleries__tool-download-btn--logo-premiere-1h4 {
+            background-image: url("https://a5.behance.net/afdbc184ead090f70e060eaa1739c7746cac0409/img/galleries/icons/adobe/download/1x/premiere.png");
+        }
+        @media only screen and (-webkit-min-device-pixel-ratio: 2),
+        only screen and (min-resolution: 192dpi),
+        only screen and (min-resolution: 2dppx) {
+            .Galleries-curated-galleries__tool-download-btn-150 .Galleries-curated-galleries__tool-download-btn--logo-premiere-1h4 {
+                background-image: url("https://a5.behance.net/afdbc184ead090f70e060eaa1739c7746cac0409/img/galleries/icons/adobe/download/2x/premiere@2x.png");
+            }
+        }
+        .Galleries-curated-galleries__tool-download-btn-150 .Galleries-curated-galleries__tool-download-btn--logo-ps-mix-3hh {
+            background-image: url("https://a5.behance.net/afdbc184ead090f70e060eaa1739c7746cac0409/img/galleries/icons/adobe/download/1x/ps-mix.png");
+        }
+        @media only screen and (-webkit-min-device-pixel-ratio: 2),
+        only screen and (min-resolution: 192dpi),
+        only screen and (min-resolution: 2dppx) {
+            .Galleries-curated-galleries__tool-download-btn-150 .Galleries-curated-galleries__tool-download-btn--logo-ps-mix-3hh {
+                background-image: url("https://a5.behance.net/afdbc184ead090f70e060eaa1739c7746cac0409/img/galleries/icons/adobe/download/2x/ps-mix@2x.png");
+            }
+        }
+        .Galleries-curated-galleries__tool-download-btn-150 .Galleries-curated-galleries__tool-download-btn--logo-ps-sketch-mi6 {
+            background-image: url("https://a5.behance.net/afdbc184ead090f70e060eaa1739c7746cac0409/img/galleries/icons/adobe/download/1x/ps-sketch.png");
+        }
+        @media only screen and (-webkit-min-device-pixel-ratio: 2),
+        only screen and (min-resolution: 192dpi),
+        only screen and (min-resolution: 2dppx) {
+            .Galleries-curated-galleries__tool-download-btn-150 .Galleries-curated-galleries__tool-download-btn--logo-ps-sketch-mi6 {
+                background-image: url("https://a5.behance.net/afdbc184ead090f70e060eaa1739c7746cac0409/img/galleries/icons/adobe/download/2x/ps-sketch@2x.png");
+            }
+        }
+        .Galleries-curated-galleries__tool-download-btn-150 .Galleries-curated-galleries__tool-download-btn--logo-23V {
+            background-position: center center;
+            background-repeat: none;
+            background-size: 100%;
+            display: inline-block;
+            position: relative;
+            vertical-align: middle;
+        }
+        .Galleries-tag-selection-2Xp,
+        .Galleries-ui-textboxlist-2OL .Galleries-ui-textboxlist-bit-3dC.Galleries-ui-textboxlist-bit-done-1rz,
+        .Galleries-listselector_selections-2DU .Galleries-listselector-selection-2eW,
+        .Galleries-listselector_selections-2DU .Galleries-listselector-selection-bubble-2Ew {
+            background: #191919;
+            border-radius: 4px;
+            clear: both;
+            color: #fff;
+            display: inline-block;
+            float: left;
+            …

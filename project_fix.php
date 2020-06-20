@@ -1,0 +1,124 @@
+<?php
+include "db_connnection.php";
+
+$conn = OpenCon();
+
+$sql = "SELECT project.projectId, project.projectName From users_info user LEFT JOIN project ON user.userId = project.userId where user.userId = 1";
+
+$result = mysqli_query($conn, $sql);
+
+$row = mysqli_fetch_array($result); ?>
+
+<!-- ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓HTML可写区域↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Upload a work</title>
+	<link rel="shortcut icon" href="images/verseabitroundlogo.png" type="image/x-icon" />
+	<link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet">
+	<link href="styles/bootstrap.min.css" rel="stylesheet">
+	<link href="styles/style.css" rel="stylesheet">
+	<link href="https://fonts.font.im/css?family=Open+Sans" rel="stylesheet" type="text/css">
+</head>
+<style>
+	.pardding {
+		margin-top: 20px;
+	}
+</style>
+
+<body>
+	<nav class="top-navi navbar-fixed-top container-fluid navbar navbar-expand-lg navbar-dark bg-dark">
+		<a class="navi-logo" href="https://www.behance.com/">
+			<img class="my-logo" src="images\navlogow.svg" alt="logo">
+		</a>
+		<div class="navi-mid">
+			<button class="nav-item " href="https://www.Discover.com/">Discover</button>
+			<!-- Upload可以做成蓝色按钮 -->
+			<button class="nav-item nav-item-active" href="https://www.Upload.com/">Upload</button>
+			<button class="nav-item" href="https://www.Upload.com/">Profile</button>
+		</div>
+		<div class="navi-right">
+			<button class="nav-item">Search</button>
+			<button class="nav-item">Messages</button>
+			<button class="nav-item">
+				<div class="user-profile">
+					<a href="#profile">
+						<div class="userhead-s">
+							<img src="images\userhead.jpg" alt="userhead">
+						</div>
+					</a>
+				</div>
+			</button>
+		</div>
+	</nav>
+	<div class="upload">
+		<!-- 已上传一个文件后的页面（可更新，动态） -->
+		<div class="after-upload-hover">
+			<div class="upl-files ">
+				<div class="files-title">
+					<div class="text-h1">Edit Exists Project</div>
+					<div class="text-p">(you can edit the old projects here)</div>
+				</div>
+				<?php if ($row) {
+					$result = mysqli_query($conn, $sql); ?>
+					<!-- ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓当该用户拥有至少一个项目时，显示下拉菜单↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+					<select onchange="window.location=this.value;">
+						<option value="#" selected=selected></option>
+						<?php while ($row = mysqli_fetch_array($result)) { ?>
+							<option value="./jQuery-File-Upload-master/demo.php?project_id=<?php echo $row["projectId"]; ?>"><?php echo $row['projectName'] ?></option>
+						<?php } ?>
+					</select>
+					<!-- ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑当该用户拥有至少一个项目时，显示下拉菜单↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
+				<?php
+				} ?>
+				<!-- html -->
+				<div class="line pardding"></div>
+			</div>
+			<div class="upl-info">
+				<div class="files-title">
+					<div class="text-h1">Create New Project</div>
+					<div class="text-p">(you can make a brand new project here.)</div>
+				</div>
+				<div class="info-content container">
+					<form class="form-horizontal" action="project_create.php" method="post" enctype="multipart/form-data" role="form">
+						<div class="form-group">
+							<span for="projectname" class="col-sm-2 control-label">Name of Project</span>
+							<div class="col-sm-7 input-content">
+								<input type="text" class="form-control" name="projectName"id="projectName" placeholder="Please write the title here">
+							</div>
+						</div>
+						<div class="form-group">
+							<span for="projectimg" class="col-sm-3 control-label">Please select a cover image:</span>
+							<div class="col-sm-5 input-content">
+								<input name="coverImage" type="file"></input>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="col-sm-offset-2 col-sm-10">
+								<button type="submit" value="Submit" class="btn btn-success">Submit Project</button>
+							</div>
+						</div>
+					</form>
+				</div>
+				<!-- ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑当该用户没有项目时，创建新建项目的表单↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
+			</div>
+			<div class="upl-submit"></div>
+		</div>
+	</div>
+	<!-- ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑===================根据用户是否具有项目执行相应的动作==============================↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
+
+
+	<!-- ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓HTML可写区域↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+
+	<script src="scripts\jquery-3.5.0.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+<!-- ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑HTML可写区域↑↑↑↑↑↑↑↑↑↑↑↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
+<?php CloseCon($conn); ?>

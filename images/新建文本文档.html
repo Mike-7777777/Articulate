@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+ 
+<head>
+ 
+    <meta charset="utf-8">
+    <title>position</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+            margin: 0 auto;
+            padding: 0;
+            text-align: center;
+        }
+ 
+        .container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            background: #FFF0F5;
+        }
+ 
+        .header {
+            width: 100%;
+            height: 100px;
+            line-height: 100px;
+            position: absolute;
+            background-color: #FFDAB9;
+        }
+ 
+        .footer {
+            width: 100%;
+            height: 100px;
+            line-height: 100px;
+            position: absolute;
+            bottom: 0px;
+            background-color: #FFFACD;
+        }
+ 
+        .left {
+            top: 100px;
+            bottom: 100px;
+            background-color: #20B2AA;
+            width: 100px;
+            position: absolute;
+            overflow: auto;
+        }
+ 
+        .middle {
+            top: 100px;
+            left: 100px;
+            bottom: 100px;
+            right: 200px;
+            background-color: #F0E68C;
+            position: absolute;
+            overflow: auto;
+        }
+ 
+        .right {
+            top: 100px;
+            right: 0px;
+            background-color: #708090;
+            overflow: auto;
+            position: absolute;
+            bottom: 100px;
+            width: 200px;
+        }
+    </style>
+</head>
+ 
+<body>
+    <div class="container">
+        <div class="header">这是顶部</div>
+        <div class="left" id="left_content">
+            <script>
+                for (var i = 1; i <= 500; i++) {
+                    document.getElementById("left_content").innerHTML = document.getElementById("left_content").innerHTML + i.toString() + "<br/>";
+                }
+            </script>
+        </div>
+        <div class="middle" id="middle_content">
+            <script>
+                for (var i = 1; i <= 500; i++) {
+                    document.getElementById("middle_content").innerHTML = document.getElementById("middle_content").innerHTML + (i * 10).toString() + "<br/>";
+                }
+            </script>
+        </div>
+        <div class="right" id="right_content">
+            <script>
+                for (var i = 1; i <= 500; i++) {
+                    document.getElementById("right_content").innerHTML = document.getElementById("right_content").innerHTML + (i * 100).toString() + "<br/>";
+                }
+            </script>
+        </div>
+        <div class="footer">这是底部</div>
+    </div>
+ 
+</body>
+ 
+</html>
